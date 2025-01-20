@@ -1,4 +1,4 @@
-import React from 'react'
+
 import spitdope from '../../assets/spitdope.png'
 const Journey = () => {
     return (
@@ -14,7 +14,7 @@ const Journey = () => {
                             </div>
                             <div className="paraline-content mt-5 sm:pe-5 sm:px-0 pe-5 px-5 mx-auto mb-2">
                                 <p className="bebas-neue-regular  text-2xl">
-                                    A journey of relentless growth, from raw talent to unstoppable force. "SpitDope" marks the humble beginnings of creative expression, fueled by passion and authenticity. With dedication, hustle, and an unyielding drive, the transformation to "Beast Mode" reflects mastery, dominance, and an unshakable impact. It's a testament to ambition, evolution, and conquering limits.
+                                    A journey of relentless growth, from raw talent to unstoppable force. SpitDope marks the humble beginnings of creative expression, fueled by passion and authenticity. With dedication, hustle, and an unyielding drive, the transformation to "Beast Mode" reflects mastery, dominance, and an unshakable impact. It's a testament to ambition, evolution, and conquering limits.
                                 </p>
                             </div>
                             <div className="readmore mt-5 w-full sm:pe-0 sm:px-0 px-5  ">
