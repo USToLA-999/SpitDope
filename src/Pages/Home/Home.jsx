@@ -2,7 +2,8 @@
 import FirstBar from './FirstBar'
 import Navbar from '../../components/Navbar'
 import Hero from './Hero'
-import Journey from './'
+import Journey from './journey';
+
 import WeDo from './WeDo'
 import Event from './Event'
 import Footer from '../../components/Footer'
