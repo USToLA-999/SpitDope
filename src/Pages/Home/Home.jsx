@@ -6,7 +6,8 @@ import Hero from './Hero'
 import WeDo from './WeDo'
 import Event from './Event'
 import Footer from '../../components/Footer'
-import Journeyy from './journey';
+import Jouney from './Jouney'
+
 
 
 const Home = () => {
@@ -17,7 +18,7 @@ const Home = () => {
         </div>
         <Hero />
         <FirstBar />
-        <Journeyy />
+       <Jouney />
         <WeDo />
         <Event />
         <Footer />
