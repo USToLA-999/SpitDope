@@ -6,8 +6,8 @@ const Jouney = () => {
             <div className="container mx-auto pt-5 pb-5 ">
                 <div className="  grid lg:grid-cols-2  gap-8  justify-center  grid-cols-1   ">
                     <div className="content-box backbp whitespace-break-spaces mt-2 mb-2">
-                        <div className="innercontentlinebox sm:w-5/6 w-96   lg:mx-auto md:mx-5 ">
-                            <div className="headliner-box w-96 sm:pe-0 sm:px-0 pe-5 px-5 mt-5 ">
+                        <div className="innercontentlinebox sm:w-5/6    lg:mx-auto md:mx-5 ">
+                            <div className="headliner-box  sm:pe-0 sm:px-0 pe-5 px-5 mt-5 ">
                                 <h1 className="bebas-neue-regular  sm:text-6xl text-4xl">
                                     Journey: spitDope se Beast Mode
                                 </h1>

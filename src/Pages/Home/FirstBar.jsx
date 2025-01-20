@@ -12,7 +12,7 @@ const FirstBar = () => {
             </div>
             <div className="content-box whitespace-break-spaces sm:mt-10 mt-5 mb-5">
                 <div className="innercontentlinebox mx-auto">
-                    <div className="headliner-box w-96 sm:pe-5 sm:px-5 pe-5 px-5 ">
+                    <div className="headliner-box  sm:pe-5 sm:px-5 px-2 ">
                         <h1 className="bebas-neue-regular  text-6xl">
                             Spitdope: home of delhi  hiphop
                         </h1>
