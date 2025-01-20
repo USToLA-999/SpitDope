@@ -67,7 +67,7 @@ const Navbar = () => {
 
           {/* Mobile navigation links */}
           <ul
-            className={`sm:hidden gap-10 jersey-15-regular absolute text-black z-20 text-3xl w-full top-30 py-5 pl-4 flex flex-col items-center justify-center duration-1000 ${click ? "left-0" : "left-[-100%]"}`}
+            className={`sm:hidden gap-10 jersey-15-regular bg-white absolute text-black z-20 text-3xl w-full top-30 py-5 pl-4 flex flex-col items-center justify-center duration-1000 ${click ? "left-0" : "left-[-100%]"}`}
           >
             <li className="hoverline">Home</li>
             <li className="hoverline">Merch</li>
