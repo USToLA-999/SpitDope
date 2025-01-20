@@ -1,7 +1,11 @@
 
-import FirstBar from '../../components/FirstBar'
+import FirstBar from './FirstBar'
 import Navbar from '../../components/Navbar'
 import Hero from './Hero'
+import Journey from './journey'
+import WeDo from './WeDo'
+import Event from './Event'
+import Footer from '../../components/Footer'
 
 
 const Home = () => {
@@ -12,6 +16,10 @@ const Home = () => {
         </div>
         <Hero />
         <FirstBar />
+        <Journey />
+        <WeDo />
+        <Event />
+        <Footer />
     </>
   )
 }
