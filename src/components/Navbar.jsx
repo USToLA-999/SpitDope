@@ -60,7 +60,7 @@ const Navbar = () => {
               <li className="hoverline">Home</li>
             </Link>
             <Link to={'/merch'}><li className="hoverline">Shop</li></Link>
-            <li className="hoverline">About Us</li>
+             <Link to={'/aboutus'} ><li className="hoverline">About Us</li></Link>
             <li className="hoverline">History</li>
             <li className="hoverline">Articles</li>
           </ul>

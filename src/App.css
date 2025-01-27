@@ -52,7 +52,7 @@
     height: 80vh;
   }
 
-  .tagbox{
+  .tagbox , .maincontainer{
     background-image: url(./assets/pngegg.png);
     background-position: center;
     background-size: cover;
@@ -70,4 +70,14 @@
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
+  }
+
+  .innerconatiner{
+    width: 95%;
+  }
+  .span{
+    color: #bb72ff;
+  }
+  .timelinebox{
+    width: 80%;
   }
