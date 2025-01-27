@@ -69,10 +69,12 @@ const Navbar = () => {
           <ul
             className={`sm:hidden gap-10 jersey-15-regular bg-white absolute text-black z-20 text-3xl w-full top-30 py-5 pl-4 flex flex-col items-center justify-center duration-1000 ${click ? "left-0" : "left-[-100%]"}`}
           >
-            <li className="hoverline">Home</li>
+            <Link to='/'>
+              <li className="hoverline">Home</li>
+            </Link>
             <li className="hoverline">Merch</li>
             <li className="hoverline">Find us</li>
-            <li className="hoverline">About</li>
+            <Link to={'/aboutus'} ><li className="hoverline">About Us</li></Link>
           </ul>
         </div>
       </div>
