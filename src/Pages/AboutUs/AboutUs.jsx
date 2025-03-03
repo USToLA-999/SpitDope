@@ -3,6 +3,7 @@ import Navbar from "../../components/Navbar"
 import Herobar from "./Herobar"
 
 
+
 const AboutUs = () => {
   return (
     <>
@@ -11,6 +12,7 @@ const AboutUs = () => {
         </div>
         <Herobar />
         <Footer />
+        
     </>
   )
 }
