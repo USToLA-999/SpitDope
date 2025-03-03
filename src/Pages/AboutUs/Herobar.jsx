@@ -135,16 +135,16 @@ const Herobar = () => {
                                         className="vertical-timeline-element--work  bebas-neue-regular"
                                         contentStyle={{ color: 'black' }}
                                         contentArrowStyle={{ borderRight: '7px solid rgb(189, 50, 227)' }}
-                                        date="April 2014"
+                                        date={history.Date}
                                         iconStyle={{ background: 'rgb(189, 50, 227)', color: '#fff' }}
                                         icon={<BsMusicNoteList />}
                                         dateClassName='text-black bebas-neue-regular '
                                         position={index % 2 ? "right" : "left "}
                                     >
-                                        <h3 className="vertical-timeline-element-title bebas-neue-regular text-3xl">Spitdope Discover</h3>
+                                        <h3 className="vertical-timeline-element-title bebas-neue-regular text-3xl">{history.name}</h3>
                                         <h4 className="vertical-timeline-element-subtitle bebas-neue-regular">Delhi, Hauj khaz</h4>
                                         <p className='bebas-neue-regular'>
-                                            spitdope was discover in april 2014 in New Delhi, hauj khaz by MC kode, Encore ABJ and MC Snub. after some periods too many talented rappers like yungsta, frappe Ash, Calm, Rebel 7 , Smoke, Huzur many mores joined Culture.
+                                            {history.Desc}
                                         </p>
                                     </VerticalTimelineElement>
 
