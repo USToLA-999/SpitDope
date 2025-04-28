@@ -18,7 +18,7 @@ const Navbar = () => {
 
   return (
     <div className="main-container relative">
-      <MarqueeBar />
+      {/* <MarqueeBar /> */}
       <div className="navbar-container">
         <div className="container mx-auto w-full ">
           <div className="relative pt-5 flex justify-around items-center">
@@ -31,7 +31,7 @@ const Navbar = () => {
             </div>
             <div className="imager-container">
               <Link to={'/'}>
-                <img src={spitdope} alt="logo" width={300} height={300} className="imagefli text-center flex justify-center mx-auto" />
+                <img src={spitdope} alt="logo" width={300} height={300} className="imagefli imagefli animate-spin-slow text-center flex justify-center mx-auto" />
               </Link>
             </div>
             {/* Cart and User icons */}
