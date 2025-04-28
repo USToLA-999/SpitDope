@@ -1,4 +1,5 @@
 
+import Footer from '../../components/Footer'
 import Navbar from '../../components/Navbar'
 import ComingSoon from './ComingSoon'
 
@@ -9,6 +10,7 @@ const Merch = () => {
             <Navbar />
         </div>
         <ComingSoon />
+        <Footer />
     </>
   )
 }
