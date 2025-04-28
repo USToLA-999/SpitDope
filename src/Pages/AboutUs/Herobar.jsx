@@ -125,7 +125,7 @@ const Herobar = () => {
                         </div>
                     </div>
                 </div>
-                <div className=" bg-slate-50 -mt-6">
+                <div className="-mt-6">
                     <div className="timelinebox mx-auto">
                         {History.map((history, index) => (
                             <div className="" key={index}>
